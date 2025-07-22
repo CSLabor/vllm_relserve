@@ -1,3 +1,11 @@
+This customized version of vLLM is modified based on vLLM `v0.6.6.post1`. 
+
+Installation Guidelines: majorly following instructions in https://docs.vllm.ai/en/latest/getting_started/installation/gpu.html#python-only-build-without-compilation  :
+1. prepare a new conda environment
+2. install the original `v0.6.6.post1` library
+3. change to `vllm_serve` directory, then execute `VLLM_PRECOMPILED_WHEEL_LOCATION=https://files.pythonhosted.org/packages/b0/14/9790c07959456a92e058867b61dc41dde27e1c51e91501b18207aef438c5/vllm-0.6.6.post1-cp38-abi3-manylinux1_x86_64.whl  VLLM_USE_PRECOMPILED=1 pip install --editable .` to install the new priority updating and adaptive batching designs 
+
+---
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vllm-project/vllm/main/docs/source/assets/logos/vllm-logo-text-dark.png">
