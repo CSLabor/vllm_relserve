@@ -1,0 +1,1 @@
+VLLM_PRECOMPILED_WHEEL_LOCATION=https://files.pythonhosted.org/packages/b0/14/9790c07959456a92e058867b61dc41dde27e1c51e91501b18207aef438c5/vllm-0.6.6.post1-cp38-abi3-manylinux1_x86_64.whl VLLM_USE_PRECOMPILED=1 pip install --editable .
